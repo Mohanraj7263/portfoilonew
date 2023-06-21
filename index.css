@@ -30,6 +30,7 @@ body {
   width: 300px;
   height: 50px;
   justify-content: center;
+  align-items: center;
 }
 
 .switch {
@@ -70,12 +71,14 @@ body {
   /* background-color: rgb(43, 226, 208); */
 }
 .button {
-  width: 500px;
+  width: 486px;
   background-color: #e1a30e;
-  height: 80px;
+  height: 93px;
   margin-left: 6px;
   font-size: 35px;
   color: white;
+  /* border: 2px solid black; */
+  border-radius: 21px;
 }
 .pic {
   display: flex;
@@ -150,9 +153,12 @@ body {
   flex-wrap: wrap;
   /* background-color: blue; */
   /* margin: 0px 407px 0px 407px; */
-  margin: 250px 407px 0px 377px;
+  /* margin: 250px 407px 0px 377px; */
   row-gap: 62px;
   column-gap: 112px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
 }
 .card1 {
   display: flex;
@@ -199,4 +205,185 @@ body {
 }
 .rocket-pic {
   display: flex;
+}
+.habbi-container {
+  display: flex;
+  width: 100%;
+  height: 1000px;
+  /* background-color: red; */
+}
+.habbi-para {
+  display: flex;
+  width: 50%;
+  /* background-color: blue; */
+  /* height: 100px; */
+  flex-direction: column;
+  font-size: 50px;
+  justify-content: center;
+  /* margin-left: 155px; */
+  padding-left: 155px;
+}
+.h1-head {
+  margin-left: 35px;
+}
+.p-para {
+  margin-left: 35px;
+}
+.habbi-pics {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.habbi-image {
+  display: flex;
+  width: 68%;
+  height: 520px;
+}
+.worldpic-container {
+  display: flex;
+  width: 100%;
+  /* background-color: red; */
+  height: 1000px;
+}
+.worldpic {
+  display: flex;
+  width: 30%;
+}
+.worldpic-para {
+  display: flex;
+  width: 54%;
+  /* gap: 135px; */
+  background-color: #ebebeb;
+  /* justify-content: center; */
+  /* padding: 6px 102px 3px 20px; */
+  justify-content: center;
+  margin-left: 659px;
+  height: 633px;
+  margin-top: 239px;
+}
+.first-para {
+  display: flex;
+  /* flex-direction: column;
+  width: 860px;
+  /* background-color: yellow; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* font-size: 36px;  */
+}
+.programa-para {
+  margin-left: 20px;
+}
+.para-background {
+  display: flex;
+  flex-direction: column;
+  width: 638px;
+  /* background-color: yellow; */
+  justify-content: center;
+  /* align-items: center; */
+  font-size: 32px;
+  margin-left: 159px;
+}
+.undarwlost-container {
+  display: flex;
+  /* background-color: red; */
+  width: 100%;
+  height: 1050px;
+}
+.last-para {
+  display: flex;
+  /* background-color: yellow; */
+  width: 60%;
+  /* flex-direction: column; */
+  background-color: #ebebeb;
+  height: 683px;
+}
+.last-pic {
+  display: flex;
+  /* background-color: blue; */
+  width: 60%;
+  justify-content: end;
+}
+.lastpara1 {
+  display: flex;
+  background-color: #ebebeb;
+  height: 633px;
+  width: 61%;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 33px;
+  margin-top: 50px;
+  padding-left: 165px;
+}
+.para-background {
+  display: flex;
+  background-color: #ebebeb;
+}
+.footer {
+  display: flex;
+  width: 100%;
+  background-color: #e1a30e;
+  height: 500px;
+  justify-content: center;
+}
+.footer-image {
+  display: flex;
+  gap: 100px;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+.input:checked + .slider {
+  background-color: #2196f3;
+}
+
+.input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+.input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  /* -webkit-transition: 0.4s; */
+  transition: 0.4s;
 }
