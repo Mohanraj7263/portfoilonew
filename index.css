@@ -79,6 +79,7 @@ body {
   color: white;
   /* border: 2px solid black; */
   border-radius: 21px;
+  cursor: pointer;
 }
 .pic {
   display: flex;
@@ -122,6 +123,7 @@ body {
   font-size: 30px;
   /* border: 3px solid black; */
   border-radius: 11px;
+  cursor: pointer;
 }
 .curr-button {
   background-color: #e1a30e;
@@ -131,6 +133,7 @@ body {
   font-size: 30px;
   /* border: 3px solid black; */
   border-radius: 11px;
+  cursor: pointer;
 }
 .h4 {
   font-size: 65px;
@@ -186,6 +189,7 @@ body {
   border-radius: 15px;
   color: white;
   font-size: 28px;
+  cursor: pointer;
 }
 .card-content {
   display: flex;
